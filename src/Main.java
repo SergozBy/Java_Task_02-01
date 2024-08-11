@@ -6,12 +6,12 @@ public class Main {
         // стоимости билета, другую для хранения количества
         // рублей для одной бонусной мили
         int ticketPrice = 23_745;
-        int bonusForEvery = 20;
+        int bonusForEveryMiles = 20;
 
         // Рассчитываете количество бонусных миль, используя
         // значения заведённых переменных. Ответ сохраняете в
         // новую переменную и выводите на экран
-        int bonusValue = ticketPrice / bonusForEvery;
+        int bonusValue = ticketPrice / bonusForEveryMiles;
         System.out.println("Начисленно бонусных баллов:" + bonusValue);
     }
 }
