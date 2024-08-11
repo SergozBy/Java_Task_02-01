@@ -11,7 +11,7 @@ public class Main {
         // Рассчитываете количество бонусных миль, используя
         // значения заведённых переменных. Ответ сохраняете в
         // новую переменную и выводите на экран
-        int bonusMiles = ticketPrice / bonusForEvery;
-        System.out.println("Начисленно бонусных баллов:" + bonusMiles);
+        int bonusValue = ticketPrice / bonusForEvery;
+        System.out.println("Начисленно бонусных баллов:" + bonusValue);
     }
 }
